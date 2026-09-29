@@ -1,0 +1,90 @@
+# -----------------------------
+# Python / backend
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+backend/.venv/
+backend/venv/
+
+# Test / coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+backend/.pytest_cache/
+
+# Packaging / build output
+*.egg-info/
+*.egg
+build/
+dist/
+backend/build/
+backend/dist/
+
+# Local DB / uploads / generated files
+*.sqlite3
+*.db
+backend/uploads/
+backend/data/
+backend/tmp/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# -----------------------------
+# Node / frontend (Vite + React)
+# -----------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+frontend/*.tsbuildinfo
+frontend/coverage/
+frontend/.eslintcache
+
+# -----------------------------
+# IDE / editor
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs / temp files
+# -----------------------------
+*.log
+logs/
+tmp/
+temp/
+
+# -----------------------------
+# Optional project-specific files
+# -----------------------------
+# Ignora artefactos locales si se generan durante el desarrollo
+backend/.local/
+frontend/.local/
