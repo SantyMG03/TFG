@@ -85,6 +85,10 @@ temp/
 # -----------------------------
 # Optional project-specific files
 # -----------------------------
-# Ignora artefactos locales si se generan durante el desarrollo
 backend/.local/
 frontend/.local/
+
+# -----------------------------
+# Agents
+# -----------------------------
+graphify-out/
